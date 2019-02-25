@@ -1,0 +1,22 @@
+
+...Training (10 fold)...
+SVM : 0.947662  STD: 0.007687  TIME: 11.2s
+LogR: 0.985570  STD: 0.004883  TIME: 5.0s
+KNN : 0.942849  STD: 0.007951  TIME: 0.3s
+CART: 0.985183  STD: 0.003341  TIME: 0.3s
+LinD: 0.994420  STD: 0.003490  TIME: 0.2s
+GaNB: 0.970562  STD: 0.005764  TIME: 0.1s
+...Finished: Best model was LinD..
+
+...Predicting with LinD...
+Acc: 0.9969230769230769
+[[329   3]
+ [  1 967]]
+              precision    recall  f1-score   support
+
+         red       1.00      0.99      0.99       332
+       white       1.00      1.00      1.00       968
+
+   micro avg       1.00      1.00      1.00      1300
+   macro avg       1.00      0.99      1.00      1300
+weighted avg       1.00      1.00      1.00      1300
